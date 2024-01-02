@@ -100,6 +100,9 @@
                             <mainClass>${main.class}</mainClass>
                         </manifest>
                     </archive>
+                    <additionalClasspathElements>
+           		        <additionalClasspathElement>src/test/java/</additionalClasspathElement>
+           	        </additionalClasspathElements>
                 </configuration>
             </plugin>
 
